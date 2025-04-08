@@ -1,1 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header{
+    text-align:center ;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    height:100px;
+    width: 100vw;
+
+  }
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.div li{
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+  footer{
+  }
+  
+  button{
+    background-color: #feb47b;
+    margin: 10px;
+  }
+  button:hover{
+    background-color: antiquewhite;
+  }
+  h2{
+  }
