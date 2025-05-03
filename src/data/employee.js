@@ -109,11 +109,11 @@ export const employees = [
           title: "Professional Coder of Emojis",
           salary: 2800,
           phone: "040-9012345",
-          email: "henrietta.salminen@example.com",
+          email: "salminen@example.com",
           animal: "Horse",
           startDate: "2020-04-17",
           location: "Vantaa",
-          department: "Emoji & Text Communication",
+          department: "Text Communication",
           skills: ["🦄", "💻", "🎉"]
         },
         {

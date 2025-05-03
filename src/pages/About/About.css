@@ -1,0 +1,17 @@
+.about-page{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.about-page h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2575fc;
+}
+.about-page p{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}

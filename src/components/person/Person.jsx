@@ -1,17 +1,14 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
 import { employees } from '../../data/employee';
 import Person from './PersonCard';
 import './PersonList.css';
 
-const PersonList = () => {
+const PersonList = ({employeeData,setEmployeeData}) => {
   return (
     <>
-      <Header />
       <div className="app">
         <main className="person-grid">
-          {employees.map(employee => (
+          {employeeData.map(employee => (
             <Person
               key={employee.id}
               name={employee.name}
@@ -27,7 +24,6 @@ const PersonList = () => {
           ))}
         </main>
       </div>
-      <Footer />
     </>
   );
 };
