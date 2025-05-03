@@ -21,6 +21,8 @@ const PersonList = () => {
               email={employee.email}
               location={employee.location}
               department={employee.department}
+              animal={employee.animal}
+              startDate={employee.startDate}
             />
           ))}
         </main>

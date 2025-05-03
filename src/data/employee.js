@@ -1,5 +1,4 @@
-
-   export const employees = [
+export const employees = [
         {
           id: 1,
           name: "Aino Virtanen",
@@ -8,7 +7,7 @@
           phone: "040-1234567",
           email: "aino.virtanen@example.com",
           animal: "Owl",
-          startDate: "2018-04-01",
+          startDate: "2015-5-1",
           location: "Helsinki",
           department: "Human Resources",
           skills: ["Recruiting", "Communication", "Employee Relations"]
@@ -20,8 +19,8 @@
           salary: 3500,
           phone: "040-2345678",
           email: "jussi.makinen@example.com",
-          animal: "Penguin",
-          startDate: "2020-06-12",
+          animal: "Fox",
+          startDate: "2025-06-12",
           location: "Helsinki",
           department: "Snacks & Refreshments",
           skills: ["Snack Procurement", "Caffeine Enthusiast", "Napping"]
@@ -33,8 +32,8 @@
           salary: 3800,
           phone: "040-3456789",
           email: "matti.nieminen@example.com",
-          animal: "Sloth",
-          startDate: "2019-09-10",
+          animal: "Cat",
+          startDate: "2017-02-22",
           location: "Tampere",
           department: "Humor & Wellness",
           skills: ["Dad Jokes", "Impersonations", "Making Meetings Fun"]
@@ -46,8 +45,8 @@
           salary: 2900,
           phone: "040-4567890",
           email: "sanna.koskinen@example.com",
-          animal: "Koala",
-          startDate: "2017-02-22",
+          animal: "Bear",
+          startDate: "2025-9-10",
           location: "Espoo",
           department: "Creative Thinking",
           skills: ["Lost in Thought", "Visionary", "Inspiration"]
@@ -59,7 +58,7 @@
           salary: 3100,
           phone: "040-5678901",
           email: "pekka.laine@example.com",
-          animal: "Cheetah",
+          animal: "Dog",
           startDate: "2016-11-05",
           location: "Helsinki",
           department: "Unsolicited Advice",
@@ -85,7 +84,7 @@
           salary: 3300,
           phone: "040-7890123",
           email: "lauri.hamalainen@example.com",
-          animal: "Chameleon",
+          animal: "Lion",
           startDate: "2021-01-09",
           location: "Oulu",
           department: "Office Supplies",
@@ -98,8 +97,8 @@
           salary: 2700,
           phone: "040-8901234",
           email: "kaisa.jarvinen@example.com",
-          animal: "Fox",
-          startDate: "2018-07-23",
+          animal: "Eagle",
+          startDate: "2025-07-23",
           location: "Lahti",
           department: "Strategy & Puzzle Solving",
           skills: ["Problem Solving", "Puzzle Master", "Strategic Thinking"]
@@ -111,8 +110,8 @@
           salary: 2800,
           phone: "040-9012345",
           email: "henrietta.salminen@example.com",
-          animal: "Giraffe",
-          startDate: "2019-04-17",
+          animal: "Horse",
+          startDate: "2020-04-17",
           location: "Vantaa",
           department: "Emoji & Text Communication",
           skills: ["🦄", "💻", "🎉"]
@@ -131,4 +130,4 @@
           skills: ["Master of Naps", "Procrastination", "Not Getting Caught"]
         }
       ];
-      
+

@@ -46,3 +46,25 @@
 .person-body strong {
   color: #4A90E2;
 }
+
+.reminder {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #fff4c4;  
+  border-left: 4px solid #ffc107; 
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.recognition {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #d1ffc4; 
+  border-left: 4px solid #07ff07; 
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
