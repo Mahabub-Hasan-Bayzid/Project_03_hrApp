@@ -1,0 +1,70 @@
+.person-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.person-card-header {
+  background: #4A90E2;
+  padding: 15px;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+}
+
+.person-card-header h2 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.person-card-header p {
+  font-size: 1rem;
+  margin: 5px 0 0;
+  color: #cce7ff;
+}
+
+.person-body {
+  padding: 15px;
+}
+
+.person-body p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #333333;
+}
+
+.person-body strong {
+  color: #4A90E2;
+}
+
+.reminder {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #fff4c4;  
+  border-left: 4px solid #ffc107; 
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.recognition {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #d1ffc4; 
+  border-left: 4px solid #07ff07; 
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
