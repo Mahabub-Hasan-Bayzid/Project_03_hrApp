@@ -1,14 +1,23 @@
-import React from 'react';
-import { employees } from '../../data/employee';
-import Person from './PersonCard';
-import './PersonList.css';
+import React from "react";
+import Person from "./PersonCard";
+import "./PersonList.css";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
-const PersonList = ({employeeData,setEmployeeData}) => {
+const PersonList = () => {
+  const [employeeData, setEmployeeData] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/employees/")
+      .then((res) => setEmployeeData(res.data))
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
     <>
       <div className="app">
         <main className="person-grid">
-          {employeeData.map(employee => (
+          {employeeData.map((employee) => (
             <Person
               key={employee.id}
               name={employee.name}
