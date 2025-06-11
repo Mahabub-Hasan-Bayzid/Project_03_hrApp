@@ -24,7 +24,7 @@
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
 
@@ -42,7 +42,7 @@
   text-decoration: none;
   color: #ffffff;
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
   padding: 8px 12px;
   border-radius: 6px;
@@ -52,9 +52,8 @@
   background-color: rgba(255, 255, 255, 0.2);
   color: #00f2fe;
 }
-.active{
+.active {
   background-color: rgba(255, 255, 255, 0.2);
-  
 }
 .nav ul li a.active {
   background-color: rgba(255, 255, 255, 0.2);

@@ -4,7 +4,7 @@
   padding: 20px;
   margin: 15px 0;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #333333;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -15,7 +15,7 @@
 }
 
 .person-card-header {
-  background: #4A90E2;
+  background: #4a90e2;
   padding: 15px;
   border-radius: 12px 12px 0 0;
   text-align: center;
@@ -34,7 +34,13 @@
 }
 
 .person-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 15px;
+}
+.person-info {
+  flex: 1;
 }
 
 .person-body p {
@@ -44,14 +50,14 @@
 }
 
 .person-body strong {
-  color: #4A90E2;
+  color: #4a90e2;
 }
 
 .reminder {
   margin-top: 10px;
   padding: 8px;
-  background-color: #fff4c4;  
-  border-left: 4px solid #ffc107; 
+  background-color: #fff4c4;
+  border-left: 4px solid #ffc107;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -60,11 +66,59 @@
 .recognition {
   margin-top: 10px;
   padding: 8px;
-  background-color: #d1ffc4; 
-  border-left: 4px solid #07ff07; 
+  background-color: #d1ffc4;
+  border-left: 4px solid #07ff07;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 8px;
 }
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
 
+.action-icons {
+  display: flex;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.action-icons.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.action-icons svg {
+  width: 32px;
+  height: 32px;
+  fill: #4a90e2;
+  cursor: pointer;
+  transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+.action-icons svg:hover {
+  transform: scale(1.2);
+  fill: #1c6cd5;
+}
+
+.action svg {
+  width: 38px;
+  height: 38px;
+  fill: #4a90e2;
+  cursor: pointer;
+  transition: transform 0.2s ease, fill 0.2s ease;
+  background: #f9f9f9;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.action svg:hover {
+  transform: scale(1.1);
+  fill: #1c6cd5;
+}

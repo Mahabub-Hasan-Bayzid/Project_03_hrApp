@@ -2,42 +2,37 @@
   "employees": [
     {
       "id": "1",
-      "name": "Aino Virtanen",
+      "name": "test",
       "title": "HR Manager",
-      "salary": 4200,
+      "salary": "4",
       "phone": "040-1234567",
       "email": "aino.virtanen@example.com",
       "animal": "Owl",
       "startDate": "2015-5-1",
       "location": "Helsinki",
       "department": "Human Resources",
-      "skills": ["Recruiting", "Communication", "Employee Relations"]
+      "skills": [
+        "Recruiting",
+        "Communication",
+        "Employee Relations"
+      ]
     },
     {
       "id": "2",
       "name": "Jussi Mäkinen",
       "title": "Chief Snack Officer",
-      "salary": 3500,
+      "salary": "35",
       "phone": "040-2345678",
       "email": "jussi.makinen@example.com",
       "animal": "Fox",
       "startDate": "2025-06-12",
       "location": "Helsinki",
       "department": "Snacks & Refreshments",
-      "skills": ["Snack Procurement", "Caffeine Enthusiast", "Napping"]
-    },
-    {
-      "id": "3",
-      "name": "Matti Nieminen",
-      "title": "Head of Laughter",
-      "salary": 3800,
-      "phone": "040-3456789",
-      "email": "matti.nieminen@example.com",
-      "animal": "Cat",
-      "startDate": "2017-02-22",
-      "location": "Tampere",
-      "department": "Humor & Wellness",
-      "skills": ["Dad Jokes", "Impersonations", "Making Meetings Fun"]
+      "skills": [
+        "Snack Procurement",
+        "Caffeine Enthusiast",
+        "Napping"
+      ]
     },
     {
       "id": "4",
@@ -50,7 +45,11 @@
       "startDate": "2025-9-10",
       "location": "Espoo",
       "department": "Creative Thinking",
-      "skills": ["Lost in Thought", "Visionary", "Inspiration"]
+      "skills": [
+        "Lost in Thought",
+        "Visionary",
+        "Inspiration"
+      ]
     },
     {
       "id": "5",
@@ -63,7 +62,11 @@
       "startDate": "2016-11-05",
       "location": "Helsinki",
       "department": "Unsolicited Advice",
-      "skills": ["Giving Advice", "Over-Analyzing", "Being Very Helpful"]
+      "skills": [
+        "Giving Advice",
+        "Over-Analyzing",
+        "Being Very Helpful"
+      ]
     },
     {
       "id": "6",
@@ -76,7 +79,11 @@
       "startDate": "2015-05-18",
       "location": "Tampere",
       "department": "Coffee & Breaks",
-      "skills": ["Espresso Making", "Chatting", "Filling Out Surveys"]
+      "skills": [
+        "Espresso Making",
+        "Chatting",
+        "Filling Out Surveys"
+      ]
     },
     {
       "id": "7",
@@ -96,43 +103,21 @@
       ]
     },
     {
-      "id": "8",
-      "name": "Kaisa Järvinen",
-      "title": "Tetris Champion",
-      "salary": 2700,
-      "phone": "040-8901234",
-      "email": "kaisa.jarvinen@example.com",
-      "animal": "Eagle",
-      "startDate": "2025-07-23",
-      "location": "Lahti",
-      "department": "Strategy & Puzzle Solving",
-      "skills": ["Problem Solving", "Puzzle Master", "Strategic Thinking"]
-    },
-    {
       "id": "9",
       "name": "Henrietta Salminen",
       "title": "Professional Coder of Emojis",
-      "salary": 2800,
+      "salary": "2800",
       "phone": "040-9012345",
-      "email": "salminen@example.com",
+      "email": "salminen@example.",
       "animal": "Horse",
       "startDate": "2020-04-17",
       "location": "Vantaa",
       "department": "Text Communication",
-      "skills": ["🦄", "💻", "🎉"]
-    },
-    {
-      "id": "10",
-      "name": "Antti Virtanen",
-      "title": "Head of Power Naps",
-      "salary": 2600,
-      "phone": "040-0123456",
-      "email": "antti.virtanen@example.com",
-      "animal": "Panda",
-      "startDate": "2014-03-29",
-      "location": "Helsinki",
-      "department": "Napping & Recharging",
-      "skills": ["Master of Naps", "Procrastination", "Not Getting Caught"]
+      "skills": [
+        "🦄",
+        "💻",
+        "🎉"
+      ]
     },
     {
       "id": "ec67",
@@ -145,72 +130,129 @@
       "startDate": "10/9/2001",
       "location": "Nostrum reiciendis e",
       "department": "Omnis harum quis eum",
-      "skills": ["Ullamco qui mollitia"]
+      "skills": [
+        "Ullamco qui mollitia"
+      ]
     },
     {
-      "id": "2002",
-      "name": "Uriel Herrera",
-      "title": "Voluptates nisi inci",
-      "salary": 69,
-      "phone": "53",
-      "email": "xamo@mailinator.com",
-      "animal": "🐴 Horse",
-      "startDate": "1/11/1972",
-      "location": "In eligendi deserunt",
-      "department": "Quam enim do eveniet",
-      "skills": ["Sit ipsam sint sint"]
-    },
-    {
-      "id": "eb34",
-      "name": "Kelsey Haynes",
-      "title": "Exercitationem et ad",
-      "salary": 73,
-      "phone": "41",
-      "email": "notycyjem@mailinator.com",
+      "id": "1120",
+      "name": "wwwdq",
+      "title": "efw",
+      "salary": 34423,
+      "phone": "32425",
+      "email": "mhbayzid009@gmail.com",
       "animal": "Cat",
-      "startDate": "1/21/1986",
-      "location": "Numquam quia id iure",
-      "department": "Nulla commodi obcaec",
-      "skills": ["Qui sapiente at quas"]
+      "startDate": "5/12/2025",
+      "location": "Bangladesh",
+      "department": "Eum amet omnis haru",
+      "skills": [
+        "Qui incidunt qui di"
+      ]
     },
     {
-      "id": "e5aa",
-      "name": "Kibo Berry",
-      "title": "Omnis veritatis dolo",
-      "salary": 35,
-      "phone": "1",
-      "email": "pepisyjev@mailinator.com",
-      "animal": "Fox",
-      "startDate": "12/31/1992",
-      "location": "Ea facilis irure min",
-      "department": "Reprehenderit bland",
-      "skills": ["Minim est id cillum"]
-    },
-    {
-      "id": "7772",
-      "name": "Olga Curtis",
-      "title": "Sapiente incididunt ",
-      "salary": 32,
-      "phone": "87",
-      "email": "mazimy@mailinator.com",
-      "animal": "Dog",
-      "startDate": "4/3/2002",
-      "location": "Et qui dolore repudi",
-      "department": "Impedit tempor accu",
-      "skills": ["Saepe modi sed omnis"]
-    },
-    {
-      "id": "2636",
-      "name": "Faith Whitfield",
-      "title": "Reprehenderit illo ",
-      "salary": 86,
-      "phone": "39",
-      "email": "pucukejobo@mailinator.com",
+      "id": "8b8a",
+      "name": "Keegan Snow",
+      "title": "Excepteur et ut sint",
+      "salary": 75,
+      "phone": "41",
+      "email": "sakymo@mailinator.com",
       "animal": "Bear",
-      "startDate": "11/30/1972",
-      "location": "Quis esse blanditiis",
-      "department": "Est sunt sed a ullam",
-      "skills": ["Fugit minus eaque v"]
+      "startDate": "12/4/1971",
+      "location": "Similique tenetur nu",
+      "department": "Reprehenderit facer",
+      "skills": [
+        "Sint nemo sit eaque"
+      ]
+    },
+    {
+      "id": "0552",
+      "name": "Stephen Frank",
+      "title": "Elit ipsum ex neque",
+      "salary": 51,
+      "phone": "47",
+      "email": "rimuxizola@mailinator.com",
+      "animal": "Horse",
+      "startDate": "6/19/1999",
+      "location": "Est ipsam laudantium",
+      "department": "Nihil sed sed magna ",
+      "skills": [
+        "Sunt suscipit amet"
+      ]
+    },
+    {
+      "id": "8ec6",
+      "name": "Amber Herrera",
+      "title": "Excepturi culpa id ",
+      "salary": 64,
+      "phone": "10",
+      "email": "gyzys@mailinator.com",
+      "animal": "Panda",
+      "startDate": "5/20/1996",
+      "location": "Ipsum sed fuga Corp",
+      "department": "Perferendis tempore",
+      "skills": [
+        "Voluptas enim omnis"
+      ]
+    },
+    {
+      "id": "fd58",
+      "name": "Owen Wilkerson",
+      "title": "Qui nesciunt maxime",
+      "salary": 99,
+      "phone": "59",
+      "email": "bata@mailinator.com",
+      "animal": "Horse",
+      "startDate": "2/24/2023",
+      "location": "In occaecat porro po",
+      "department": "Eum explicabo Commo",
+      "skills": [
+        "Et doloremque aut qu"
+      ]
+    },
+    {
+      "id": "e543",
+      "name": "Wyoming Morgan",
+      "title": "Reiciendis atque atq",
+      "salary": 19,
+      "phone": "48",
+      "email": "qynuga@mailinator.com",
+      "animal": "Bear",
+      "startDate": "9/28/2009",
+      "location": "Dignissimos enim sun",
+      "department": "Officia incididunt u",
+      "skills": [
+        "Animi autem laborum"
+      ]
+    },
+    {
+      "id": "b493",
+      "name": "Demetrius Hayes",
+      "title": "Aut qui assumenda an",
+      "salary": 72,
+      "phone": "53",
+      "email": "ketyxuvul@mailinator.com",
+      "animal": "Fox",
+      "startDate": "6/19/2017",
+      "location": "Reprehenderit dolore",
+      "department": "Enim ea est excepteu",
+      "skills": [
+        "Architecto tempor la"
+      ]
+    },
+    {
+      "id": "3dd6",
+      "name": "Xaviera Hopper",
+      "title": "Consequat Qui deser",
+      "salary": 96,
+      "phone": "78",
+      "email": "hucarajog@mailinator.com",
+      "animal": "Lion",
+      "startDate": "11/3/1999",
+      "location": "Et in sit illum od",
+      "department": "Quo consectetur min",
+      "skills": [
+        "Ullamco nostrud enim"
+      ]
     }
   ]
 }

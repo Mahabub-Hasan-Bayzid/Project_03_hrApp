@@ -1,37 +1,72 @@
 .page-container {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px 30px;
-    font-family: 'Poppins', sans-serif;
-    height: 100vh;
-  }
-  
-  .page-container h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #2575fc;
-  }
-  
-  .page-container p {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  .dashboard-widgets {
-    display: flex;
-    gap: 20px;
-    margin-top: 30px;
-  }
-  
-  .widget {
-    flex: 1;
-    background: linear-gradient(90deg, #6a11cb, #2575fc);
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.page-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+.page-container p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.dashboard-widgets {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.widget {
+  flex: 1;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  fill: #ffffff;
+}
+.svg {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  fill: #ffffff;
+}
+.svg:hover {
+  fill: #00f2fe;
+  cursor: pointer;
+}
+
+.widget .text {
+  font-size: 1.2rem;
+}
+
+.widget:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.widget:hover svg {
+  fill: #00f2fe;
+  cursor: pointer;
+}
