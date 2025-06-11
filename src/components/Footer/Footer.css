@@ -5,13 +5,14 @@
 }
 
 .footer {
-  background-color: #4A90E2;
+  background-color: #4a90e2;
   color: white;
   text-align: center;
   padding: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0%;
 }
 
 .footer-container {
@@ -42,11 +43,11 @@
 .quick-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: #C1A9D9;
+  color: #c1a9d9;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
 .quick-links a:hover {
-  color: #9E82D9;
+  color: #9e82d9;
 }

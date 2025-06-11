@@ -3,8 +3,10 @@ import "./AddEmployee.css";
 import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
+import { useNavigate } from "react-router";
 
 const AddEmployee = () => {
+  const navigate = useNavigate();
   const [formData, setFromdata] = useState({
     name: "",
     title: "",
@@ -30,34 +32,40 @@ const AddEmployee = () => {
       startDate: new Date(formData.startDate).toLocaleDateString(),
       skills: formData.skills.split(",").map((skill) => skill.trim()),
     };
-    axios.post("http://localhost:3001/employees", newEmployee);
-    Swal.fire({
-      toast: true,
-      position: "top-end",
-      icon: "success",
-      title: "Employee added successfully!",
-      showConfirmButton: false,
-      timer: 2500,
-      timerProgressBar: true,
-      background: "#fff",
-      color: "#333",
-      iconColor: "#00f2fe",
-      customClass: {
-        title: "swal-title",
-      },
-    });
+    axios.post("http://localhost:3001/employees", newEmployee).then((res) => {
+      Swal.fire({
+        toast: true,
+        position: "top-end",
+        icon: "success",
+        title: "Employee added successfully!",
+        showConfirmButton: false,
+        timer: 2500,
+        timerProgressBar: true,
+        background: "#fff",
+        color: "#333",
+        iconColor: "#00f2fe",
+        customClass: {
+          title: "swal-title",
+        },
+      });
 
-    setFromdata({
-      name: "",
-      title: "",
-      salary: "",
-      phone: "",
-      email: "",
-      animal: "",
-      startDate: "dd.mm.yyyy",
-      location: "",
-      department: "",
-      skills: "",
+      setFromdata({
+        name: "",
+        title: "",
+        salary: "",
+        phone: "",
+        email: "",
+        animal: "",
+        startDate: "dd.mm.yyyy",
+        location: "",
+        department: "",
+        skills: "",
+      });
+
+      // ✅ Use ID returned from server
+      navigate("/employees", {
+        state: { scrollToId: res.data.id },
+      });
     });
   };
 

@@ -27,15 +27,10 @@ const App = () => {
       path: "/",
       element: <Layout />,
       children: [
-        { index: true, element: <Root /> },
+        { index: true, element: <Root employeeData={employeeData} /> },
         {
           path: "/employees",
-          element: (
-            <PersonList
-              employeeData={employeeData}
-              setEmployeeData={setEmployeeData}
-            />
-          ),
+          element: <PersonList />,
         },
         {
           path: "/add-employee",
