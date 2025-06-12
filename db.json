@@ -268,6 +268,36 @@
       "skills": [
         "fwgw"
       ]
+    },
+    {
+      "id": "c6b6",
+      "name": "Miriam Battle",
+      "title": "Dolore odit porro iu",
+      "salary": 79,
+      "phone": "66",
+      "email": "rakopydas@mailinator.com",
+      "animal": "Bear",
+      "startDate": "7/15/1971",
+      "location": "Repudiandae accusant",
+      "department": "Vel reprehenderit el",
+      "skills": [
+        "Sunt duis minim aut"
+      ]
+    },
+    {
+      "id": "8627",
+      "name": "Stephen Poole",
+      "title": "Et qui consectetur e",
+      "salary": 92,
+      "phone": "34",
+      "email": "pitivegu@mailinator.com",
+      "animal": "Dog",
+      "startDate": "1/6/2004",
+      "location": "Quis aut sit volupta",
+      "department": "Ad sint fuga Delec",
+      "skills": [
+        "A et voluptas ea odi"
+      ]
     }
   ]
 }
