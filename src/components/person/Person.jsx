@@ -30,7 +30,7 @@ const PersonList = () => {
 
   const handledelete = (id) => {
     axios
-      .delete("https://backend-hr-app-66cx.onrender.com/employees" + id)
+      .delete("https://backend-hr-app-66cx.onrender.com/employees/" + id)
       .then(() => {
         setEmployeeData((prev) =>
           prev.filter((employee) => employee.id !== id)
