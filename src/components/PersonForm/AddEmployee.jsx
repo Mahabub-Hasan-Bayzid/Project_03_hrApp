@@ -32,41 +32,43 @@ const AddEmployee = () => {
       startDate: new Date(formData.startDate).toLocaleDateString(),
       skills: formData.skills.split(",").map((skill) => skill.trim()),
     };
-    axios.post("http://localhost:3001/employees", newEmployee).then((res) => {
-      Swal.fire({
-        toast: true,
-        position: "top-end",
-        icon: "success",
-        title: "Employee added successfully!",
-        showConfirmButton: false,
-        timer: 2500,
-        timerProgressBar: true,
-        background: "#fff",
-        color: "#333",
-        iconColor: "#00f2fe",
-        customClass: {
-          title: "swal-title",
-        },
-      });
+    axios
+      .post("https://backend-hr-app-66cx.onrender.com/employees/", newEmployee)
+      .then((res) => {
+        Swal.fire({
+          toast: true,
+          position: "top-end",
+          icon: "success",
+          title: "Employee added successfully!",
+          showConfirmButton: false,
+          timer: 2500,
+          timerProgressBar: true,
+          background: "#fff",
+          color: "#333",
+          iconColor: "#00f2fe",
+          customClass: {
+            title: "swal-title",
+          },
+        });
 
-      setFromdata({
-        name: "",
-        title: "",
-        salary: "",
-        phone: "",
-        email: "",
-        animal: "",
-        startDate: "dd.mm.yyyy",
-        location: "",
-        department: "",
-        skills: "",
-      });
+        setFromdata({
+          name: "",
+          title: "",
+          salary: "",
+          phone: "",
+          email: "",
+          animal: "",
+          startDate: "dd.mm.yyyy",
+          location: "",
+          department: "",
+          skills: "",
+        });
 
-      // ✅ Use ID returned from server
-      navigate("/employees", {
-        state: { scrollToId: res.data.id },
+        // ✅ Use ID returned from server
+        navigate("/employees", {
+          state: { scrollToId: res.data.id },
+        });
       });
-    });
   };
 
   return (

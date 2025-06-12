@@ -13,7 +13,7 @@ const App = () => {
   const [employeeData, setEmployeeData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3001/employees/")
+      .get("https://backend-hr-app-66cx.onrender.com/employees/")
       .then((res) => setEmployeeData(res.data))
       .catch((error) => console.log(error));
   }, []);
