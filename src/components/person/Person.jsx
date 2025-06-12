@@ -23,30 +23,34 @@ const PersonList = () => {
   }, [location.state]);
   useEffect(() => {
     axios
-      .get("http://localhost:3001/employees/")
+      .get("https://backend-hr-app-66cx.onrender.com/employees/")
       .then((res) => setEmployeeData(res.data))
       .catch((error) => console.log(error));
   }, []);
 
   const handledelete = (id) => {
-    axios.delete("http://localhost:3001/employees/" + id).then(() => {
-      setEmployeeData((prev) => prev.filter((employee) => employee.id !== id));
-      Swal.fire({
-        toast: true,
-        position: "top-end",
-        icon: "success",
-        title: "Employee deleted successfully!",
-        showConfirmButton: false,
-        timer: 2500,
-        timerProgressBar: true,
-        background: "#1e1e2f",
-        color: "#f8f8f8",
-        iconColor: "#00f2fe",
-        customClass: {
-          popup: "swal2-toast-custom",
-        },
+    axios
+      .delete("https://backend-hr-app-66cx.onrender.com/employees" + id)
+      .then(() => {
+        setEmployeeData((prev) =>
+          prev.filter((employee) => employee.id !== id)
+        );
+        Swal.fire({
+          toast: true,
+          position: "top-end",
+          icon: "success",
+          title: "Employee deleted successfully!",
+          showConfirmButton: false,
+          timer: 2500,
+          timerProgressBar: true,
+          background: "#1e1e2f",
+          color: "#f8f8f8",
+          iconColor: "#00f2fe",
+          customClass: {
+            popup: "swal2-toast-custom",
+          },
+        });
       });
-    });
   };
   const handleEdit = (employee) => {
     Swal.fire({
@@ -103,10 +107,13 @@ const PersonList = () => {
       if (result.isConfirmed) {
         const updated = result.value;
         axios
-          .put(`http://localhost:3001/employees/${employee.id}`, {
-            ...employee,
-            ...updated,
-          })
+          .put(
+            `https://backend-hr-app-66cx.onrender.com/employees/${employee.id}`,
+            {
+              ...employee,
+              ...updated,
+            }
+          )
           .then((res) => {
             setEmployeeData((prev) =>
               prev.map((emp) => (emp.id === employee.id ? res.data : emp))
